@@ -30,10 +30,23 @@ body {
     overflow-x: hidden;
 }
 
+.page-col-left {
+    width: 156px;
+}
+
+.page-col-right {
+    width: 100%;
+}
+
 .art {
     background-image: url(https://www.redditstatic.com/accountmanager/bbb584033aa89e39bad69436c504c9bd.png);
     height: 100vh;
-    width: 200px;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.column-container{
+    padding: 24px;
+    min-width: 320px;
+    max-width: 440px;
 }
