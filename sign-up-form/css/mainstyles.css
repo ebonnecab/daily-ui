@@ -1,0 +1,39 @@
+/* Font */
+
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
+/* Universal Styles */
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+html {
+    min-height: 100vh;
+}
+
+html {
+    line-height: 1.15;
+}
+
+body {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1a1a1b;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.page-columns {
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.art {
+    background-image: url(https://www.redditstatic.com/accountmanager/bbb584033aa89e39bad69436c504c9bd.png);
+    height: 100vh;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
