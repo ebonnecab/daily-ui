@@ -134,6 +134,10 @@ button,
 input {
     overflow: visible;
 }
+/* TO DO: create css hover effect */
+button:hover {
+    
+}
 
 .field_two {
     margin-top: 24px;
@@ -180,4 +184,12 @@ a {
     color: #0079d3;
     text-decoration: none;
     background: transparent;
+}
+
+.user-agreement{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 20px;
 }
