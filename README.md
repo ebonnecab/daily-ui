@@ -12,3 +12,8 @@ Deployment coming soon!
 Ebonne Cabarrus @github/ebonnecab
 ### Acknowledgements
 William Bogans @github/will0101 for the inspiration to master layout designs :)
+### Day 1:
+
+![alt text][logo]
+
+[logo] : https://github.com/ebonnecab/daily-ui/blob/master/images/day-one.png "Reddit Sign Up Form"
