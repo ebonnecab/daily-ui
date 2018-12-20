@@ -110,7 +110,7 @@ fieldset {
 
 input,
 textarea {
-    font-family: Noto Sans, sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 21px;
@@ -133,4 +133,27 @@ textarea {
 button,
 input {
     overflow: visible;
+}
+
+.field_two {
+    margin-top: 24px;
+}
+
+.next-btn {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    border-radius: 4px;
+    background: #0079d3;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: 0;
+    line-height: unset;
+    height: 35px;
+    width: 155px;
+    min-width: 155px;
 }
