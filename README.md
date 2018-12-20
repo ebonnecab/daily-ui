@@ -10,5 +10,7 @@ Deployment coming soon!
 * Javascript
 ### Authors
 Ebonne Cabarrus @github/ebonnecab
-### Acknowledgements
-
+### Day One
+I recreated Reddit's sign-up form.
+### Day Two
+I recreated InVision's payment form.
