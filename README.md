@@ -11,6 +11,6 @@ Deployment coming soon!
 ### Authors
 Ebonne Cabarrus @github/ebonnecab
 ### Day One
-I recreated Reddit's sign-up form.
+
 ### Day Two
-I recreated InVision's payment form.
+
