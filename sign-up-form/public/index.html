@@ -16,7 +16,7 @@
             </div>
             <div class="page-column page-col-right">
                 <div class="column-container">
-                    <form>
+                    <form class="form" action="/register" method="POST">
                         <h1 class="title no-margin">Join the worldwide conversation.</h1>
                         <p class="description">
                             By having a Reddit account, you can subscribe, vote, 
@@ -25,8 +25,9 @@
                             Sign up in just seconds.
                         </p>
                         <fieldset class="form-field">
+                            <div class="check"></div>
                             <input id="reg-email" class="field-text-input"type="email" name="email" data-empty="true">
-                            <label for="reg-email">Email</label>  
+                            <label for="reg-email" class="input-label">Email</label>  
                         </fieldset>
                         <fieldset>
                             <button type="button">Next</button>

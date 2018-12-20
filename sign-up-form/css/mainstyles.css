@@ -88,11 +88,23 @@ fieldset {
     padding: 0;
 }
 
+.check {
+    z-index: 1;
+    background-image: url(https://www.redditstatic.com/accountmanager/d489caa9704588f7b7e1d7e1ea7b38b8.svg);
+    width: 12px;
+    height: 10px;
+    position: absolute;
+    display: block;
+    right: 14px;
+    top: 18px;
+}
+
 .field-text-input {
     width: 100%;
     height: 48px;
     border: 1px solid #24a0ed;
     border-radius: 4px;
+    padding: 22px 12px 10px;
     background-color: #fcfcfb;
 }
 
@@ -104,6 +116,21 @@ textarea {
     line-height: 21px;
 }
 
-button, input {
+.input-label {
+    line-height: 23px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 10px;
+    position: absolute;
+    top: 14px;
+    left: 12px;
+    color: #a5a4a4;
+    pointer-events: none;
+}
+
+button,
+input {
     overflow: visible;
 }
